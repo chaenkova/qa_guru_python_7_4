@@ -46,6 +46,8 @@ def test_circle():
     # TODO сосчитайте длину окружности
     length = 2*math.pi*r
 
+    print(f"\nДлина круга: {length} \n Площадь круга: {area}")
+
     assert length == 144.51326206513048
 
 
@@ -57,7 +59,7 @@ def test_random_list():
     l = []
 
     for i in range(10):
-        l.append(random.randrange(1,100))
+        l.append(random.randrange(1,101))
 
     l.sort()
 
